@@ -1,0 +1,25 @@
+<ion-view view-title="Account">
+    <ion-content>
+        <ion-list>
+            <ion-toggle ng-model="settings.enableFriends">
+                Enable Friends
+            </ion-toggle>
+        </ion-list>
+
+        <div class="button-bar bar-balanced">
+            <a class="button" ng-click="show$ionicActionSheet()">Show $ionicActionSheet</a>
+            <a class="button">Second</a>
+            <a class="button">Third</a>
+            <a class="button" ng-click="showCamera()">Camera</a>
+        </div>
+
+        <div class="list card">
+            <div class="item item-divider">预览</div>
+            <div class="item item-body">
+                <div>
+                    <img id="myImage" src="../img/ionic.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
