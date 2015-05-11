@@ -17,7 +17,10 @@
   "cordovaPlugins": [
     "org.apache.cordova.dialogs",
     "cordova-plugin-file",
-    "org.apache.cordova.statusbar"
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.geolocation",
+    "org.apache.cordova.media",
+    "org.apache.cordova.vibration"
   ],
   "cordovaPlatforms": [
     {
